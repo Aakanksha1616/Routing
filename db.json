@@ -1,0 +1,11 @@
+{
+    "bookings":[
+        {
+            "id":9,
+            "name":"Sam",
+            "source":"Pune",
+            "Destination":"Bangalore",
+            "date":"01/03/2025"
+        }
+    ]
+}

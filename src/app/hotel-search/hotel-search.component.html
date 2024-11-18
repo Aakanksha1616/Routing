@@ -1,0 +1,14 @@
+<h3> Hotel Search</h3>
+
+<div class="container">
+    <div class="row w-25 border">
+        <div class="mb-3">
+            <label for="id1" class="form-label">City</label>
+            <input type="text" class="form-control" id="id1" name="city" [(ngModel)]="cityName">
+        </div>
+        <div class="mb-3">
+            <!-- <button type="button"  [routerLink]="['/hotels-list', cityName]" class="btn btn-primary">Search</button> -->
+            <button type="button" (click)="searchHotel()"  class="btn btn-primary">Search</button>
+        </div>
+    </div> 
+</div>

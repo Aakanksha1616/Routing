@@ -1,0 +1,19 @@
+
+
+<div class="container">
+    <div class="row w-50 border p-2">
+        <h6>Buses Search</h6>
+        <form [formGroup]="busSearchForm" (ngSubmit)="searchBus()">
+            <div class="mb-3">
+              <label for="id1" class="form-label">From</label>
+              <input type="text" class="form-control" id="id1" formControlName="from">
+            </div>
+            <div class="mb-3">
+              <label for="id2" class="form-label">To</label>
+              <input type="text" class="form-control" id="id2" formControlName="to">
+            </div>
+            <button type="submit" class="btn btn-primary" >Search</button>
+          </form>
+    </div>
+</div>
+ 
